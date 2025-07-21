@@ -14,7 +14,7 @@ import { useEffect } from "react";
 function App() {
 
   useEffect(() => {
-    fetch('/api/data') // Gunakan proxy di development
+    fetch(`${process.env.REACT_APP_API_URL}/api/data`)
       .then(res => res.json())
       .then(data => console.log(data));
   }, []);

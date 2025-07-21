@@ -9,6 +9,7 @@ import LoginSignup from './Pages/LoginSignup';
 import Footer from './Components/Footer/Footer';
 import TransactionHistory from './Components/TransactionHistory/TransactionHistory';
 import About from './Components/About/About';
+import { useEffect } from "react";
 
 function App() {
 

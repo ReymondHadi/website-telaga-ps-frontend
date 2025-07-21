@@ -1,0 +1,346 @@
+.about {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+.about-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), url('https://images.unsplash.com/photo-1556767576-5ec41e3239ea?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80'));
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.about-story {
+  padding: 80px 0;
+  background-color: #f9f9f9;
+}
+
+.about-story .container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.story-content {
+  flex: 1;
+}
+
+.story-content h2 {
+  font-size: 2.2rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.story-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.story-image {
+  flex: 1;
+  position: relative;
+  height: 400px;
+  background-image: url(../Assets/Foto\ Depan\ Toko.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.years-experience {
+  position: absolute;
+  bottom: -30px;
+  right: -30px;
+  background: #e74c3c;
+  color: white;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.years-experience span {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.years-experience p {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.mission-vision {
+  padding: 80px 0;
+  background-color: white;
+}
+
+.mission-vision .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.mission, .vision, .values {
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.mission:hover, .vision:hover, .values:hover {
+  transform: translateY(-10px);
+}
+
+.icon-box {
+  width: 80px;
+  height: 80px;
+  background: #f8f9fa;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.icon-box img {
+  width: 40px;
+  height: 40px;
+}
+
+.mission-vision h3 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.mission-vision p {
+  color: #555;
+  line-height: 1.7;
+}
+
+.values ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.values li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 25px;
+}
+
+.values li:before {
+  content: "✓";
+  color: #27ae60;
+  position: absolute;
+  left: 0;
+}
+
+.our-team {
+  padding: 80px 0;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.our-team h2 {
+  font-size: 2.2rem;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.our-team p {
+  color: #555;
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+.team-members {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.team-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-10px);
+}
+
+.member-photo {
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+.team-card h3 {
+  margin: 20px 0 5px;
+  font-size: 1.3rem;
+  color: #2c3e50;
+}
+
+.team-card p {
+  color: #7f8c8d;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+.stats-section {
+  padding: 60px 0;
+  background: linear-gradient(135deg, #3498db, #2c3e50);
+  color: white;
+  text-align: center;
+}
+
+.stats-section .container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.stat-item h3 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.stat-item p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.contact-about {
+  padding: 80px 0;
+  background-color: white;
+  text-align: center;
+}
+
+.contact-about h2 {
+  font-size: 2.2rem;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.contact-about p {
+  color: #555;
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  text-align: left;
+}
+
+.contact-item {
+  display: flex;
+  gap: 20px;
+  padding: 25px;
+  border-radius: 10px;
+  background: #f8f9fa;
+  transition: all 0.3s ease;
+}
+
+.contact-item:hover {
+  background: #e8f4fc;
+  transform: translateY(-5px);
+}
+
+.contact-item i {
+  font-size: 2rem;
+  color: #3498db;
+}
+
+.contact-item h4 {
+  font-size: 1.2rem;
+  color: #2c3e50;
+  margin-bottom: 8px;
+}
+
+.contact-item p {
+  color: #555;
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .about-story .container {
+    flex-direction: column;
+  }
+  
+  .mission-vision .container {
+    grid-template-columns: 1fr;
+  }
+  
+  .team-members {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .stats-section .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .team-members {
+    grid-template-columns: 1fr;
+  }
+  
+  .contact-info {
+    grid-template-columns: 1fr;
+  }
+  
+  .stats-section .container {
+    grid-template-columns: 1fr;
+  }
+  
+  .about-hero {
+    height: 300px;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+}
